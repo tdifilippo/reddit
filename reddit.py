@@ -118,7 +118,7 @@ class popularRedditApi(Resource):
 # Set up the API resources, / /top returns the topReddit, /popular returns popularReddit
 api.add_resource(topRedditApi, '/', '/top')
 api.add_resource(popularRedditApi, '/popular')
-
+api.add_resource(popularRedditApi, '/another_link')
 # Run main, you run this by executing python reddit.py
 if __name__ == '__main__':
     app.run(debug=True)
