@@ -98,6 +98,7 @@ def getRedditInstance():
 # Create the reddit instance
 reddit=getRedditInstance()
 
+# Add a comment
 class topRedditApi(Resource):
     """
         REST topRedditApi for resource /topReddit 
